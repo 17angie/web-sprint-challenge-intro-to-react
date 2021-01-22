@@ -46,10 +46,9 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [ ] Add your team lead as collaborator on Github
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve all needed dependencies.
+- [ ] Run `npm install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Push commits: `git push origin <firstName-lastName>`
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: `git push origin <firstName-lastName>`
 
@@ -69,7 +68,7 @@ Your finished project must include all of the following requirements:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
-  - The elements must be styled with styled-components - don't rely on browser default styles.
+  - The elements must be styled with **styled-components** - don't rely on browser default styles.
 
 ### Required best practices
 
@@ -83,9 +82,9 @@ It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wik
 
 ### Tips and Gotchas
 
-- [ ] Test your API and inspect the data in Chrome, _before_ writing the code for the request(s). See screenshots at the root of the project.
+- [ ] Test your API and inspect the data in Chrome, Postman or HTTPie _before_ writing the code for the request(s). See screenshots at the root of the project.
 - [ ] Try not to hammer your API while developing. Infinite loops in your code might trigger hundreds of requests!
-- [ ] The Pokemon API is a slightly harder challenge because a single network request might not be enough to get all the data you want.
+- [ ] The Pokemon API is a slightly harder challenge because a single network request might not be enough to get all the data you need.
 - [ ] Running `npm` commands in the wrong folder will not work. **Be aware of what folder you're in** when working in the command line.
 - [ ] The `start` process can sometimes choke after adding new dependencies and may need to be restarted.
 
@@ -104,6 +103,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
